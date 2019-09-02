@@ -19,7 +19,7 @@ echo -e "
 			       XXXXXXXXXXXXXXXXXXX
 				   XXXXXXXXXXXX
 "
-declare exp=("			  \"I'm touching myself tonight." "		  \"Never underestimate the stupidity of idiots." "				  \"Chimichangas" "		    \"If you can read this, you're too close." "				   \"Ew, people")
+declare exp=("		  \"Never underestimate the stupidity of idiots." "				  \"Chimichangas" "		    \"If you can read this, you're too close." "				   \"Ew, people")
 RANDOM=$$$(date +%s)
 selectedexpression=${exp[$RANDOM % ${#exp[@]} ]}
 echo -e "
